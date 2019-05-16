@@ -4,7 +4,7 @@ Browser("Edgewords Shop – e-commerce").Page("Edgewords Shop – e-commerce").L
 Browser("Edgewords Shop – e-commerce").Page("Edgewords Shop – e-commerce_2").WebEdit("s").Set "cap" @@ script infofile_;_ZIP::ssf2.xml_;_
 Browser("Edgewords Shop – e-commerce").Page("Edgewords Shop – e-commerce_2").WebButton("Search").Click @@ script infofile_;_ZIP::ssf3.xml_;_
 Browser("Edgewords Shop – e-commerce").Page("Cap – Edgewords Shop").WebButton("Add to cart").Click @@ script infofile_;_ZIP::ssf4.xml_;_
-wait(1)
+wait(2)
 Browser("Edgewords Shop – e-commerce").Page("Cap – Edgewords Shop").Link("Cart").Click @@ script infofile_;_ZIP::ssf5.xml_;_
 Browser("Edgewords Shop – e-commerce").Page("Cart – Edgewords Shop").Link("Remove this item").Click @@ script infofile_;_ZIP::ssf6.xml_;_
 wait(3)
